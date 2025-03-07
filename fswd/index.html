@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white p-6">
+        <h1 class="text-3xl font-bold">My Portfolio</h1>
+        <nav class="mt-4">
+            <a href="#about" class="mr-4 hover:underline">About</a>
+            <a href="#projects" class="mr-4 hover:underline">Projects</a>
+            <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+    </header>
+
+    <main class="p-6">
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl font-semibold">About Me</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3iSGsP9-t-f8jyVVEreXF5-qjJW2R4QuRPw&s" alt="My Photo" class="rounded-full mt-4 mb-4">
+            <p class="mt-2">I am a web developer with a passion for creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="projects" class="mb-12">
+            <h2 class="text-2xl font-semibold">Projects</h2>
+            <ul class="mt-2">
+                <li class="mb-4">
+                    <h3 class="font-bold">Project 1</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr22KpRH3hhBsRo4Rb3WsfqPR4nO-qOSYiyw&s" alt="Project 1" class="rounded mt-2 mb-2">
+                    <p>A brief description of Project 1. This project showcases my skills in web development.</p>
+                </li>
+                <li class="mb-4">
+                    <h3 class="font-bold">Project 2</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeU4HxQratkKoepINxUKfyRAXB0t2TqLC5xg&s" alt="Project 2" class="rounded mt-2 mb-2">
+                    <p>A brief description of Project 2. This project demonstrates my ability to create responsive designs.</p>
+                </li>
+                <li class="mb-4">
+                    <h3 class="font-bold">Project 3</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqtSdr0qg7aiGT6v60aNw0_IacNaWFIeLvA&s" alt="Project 3" class="rounded mt-2 mb-2">
+                    <p>A brief description of Project 3. This project highlights my experience with JavaScript frameworks.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2 class="text-2xl font-semibold">Contact Me</h2>
+            <form class="mt-4">
+                <input type="text" placeholder="Your Name" class="border p-2 w-full mb-4" required>
+                <input type="email" placeholder="Your Email" class="border p-2 w-full mb-4" required>
+                <textarea placeholder="Your Message" class="border p-2 w-full mb-4" required></textarea>
+                <button type="submit" class="bg-blue-600 text-white p-2 rounded hover:bg-blue-700 transition duration-300">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>
